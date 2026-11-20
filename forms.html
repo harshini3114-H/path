@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day-2 forms</title>
+        <link re ="stylesheet" href ="style.css">
+    
+    </head>
+    <body>
+        <h1>Login form</h1>
+        <form action="/register" method="GET/POST">
+            <lables>Full name</lables>
+            <input type ="text" id="fullname" placeholder="enter your name"required>
+            <br>
+            <lables>email</lables>
+            <input type ="email" id="email" placeholder="enter your email">
+            <br>
+            <lables>date of birth</lables>
+            <input type ="date" id="date" placeholder="enter your email">
+            <br>
+            <lables>age</lables>
+            <input type ="number" id="age" min="10" max="70">
+            <br>
+            <lables>upload profile pic</lables>
+            <input type ="file" id="photo" accept="image/*">
+            <lables>upload profile pic</lables>
+            <br>
+            <p> select Gender</p>
+            <input type="radio" id ="Female">
+            <lable for ="Female">Female </label>
+            <br>
+            <input type="radio" id ="male">
+            <lable for ="male">male </label>
+            <p> select lang</p>
+            <input type ="checkbox" id ="lang1">
+            <label for ="lang1">English</lang1>
+            <br>
+            <input type ="checkbox" id ="lang2">
+            <label for ="lang2">telugu</lang2>
+            <br>
+            <input type ="checkbox" id ="lang3">
+            <label for ="lang3">hindi</lang1>
+            <br>
+            <label> select a course</label>
+            <select id ="course">
+                <option value ="python" >python </option>
+                <option value ="java" >java </option>
+            </select>
+            <br>
+            <label>Address:</label>
+            <textarea placeholder=""enter your add"></textarea>
+            <br>
+            <button>register</button>
+            <br>
+        </form>
+    </body>
+</html>
